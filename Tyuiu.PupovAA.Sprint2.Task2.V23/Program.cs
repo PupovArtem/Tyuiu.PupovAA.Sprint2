@@ -23,7 +23,7 @@ internal class Program
         int y = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("***************************************************************************/");
         bool res = ds.CheckDotInShadedArea(x, y);
         if (res == true)
         {
