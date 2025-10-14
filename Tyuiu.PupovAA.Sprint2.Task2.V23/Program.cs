@@ -25,7 +25,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************/");
         bool res = ds.CheckDotInShadedArea(x, y);
-        if (res == true)
+        if (res)
         {
             Console.WriteLine("Данная точка находится в заштрихованной области");
         }
