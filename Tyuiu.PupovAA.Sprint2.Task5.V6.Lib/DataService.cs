@@ -29,31 +29,31 @@ namespace Tyuiu.PupovAA.Sprint2.Task5.V6.Lib
             switch(value2)
             {
                 case 6:
-                    card = " шестерка ";
+                    card = "шестерка ";
                     break;
                 case 7:
-                    card = " семерка ";
+                    card = "семерка ";
                     break;
                 case 8:
-                    card = " восьмерка ";
+                    card = "восьмерка ";
                     break;
                 case 9:
-                    card = " девятка ";
+                    card = "девятка ";
                     break;
                 case 10:
-                    card = " десятка ";
+                    card = "десятка ";
                     break;
                 case 11:
-                    card = " валет ";
+                    card = "валет ";
                     break;
                 case 12:
-                    card = " дама ";
+                    card = "дама ";
                     break;
                 case 13:
-                    card = " король ";
+                    card = "король ";
                     break;
                 case 14:
-                    card = " туз ";
+                    card = "туз ";
                     break;
                 default :
                     throw new ArgumentException("Такой карты не существует");
