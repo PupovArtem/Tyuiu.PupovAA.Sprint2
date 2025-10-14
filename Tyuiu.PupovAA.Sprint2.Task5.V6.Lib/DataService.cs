@@ -10,16 +10,16 @@ namespace Tyuiu.PupovAA.Sprint2.Task5.V6.Lib
             switch(value1)
             {
                 case 1:
-                    card_suit = "пики";
+                    card_suit = "пик";
                     break;
                 case 2:
-                    card_suit = "трефы";
+                    card_suit = "треф";
                     break;
                 case 3:
-                    card_suit = "бубны";
+                    card_suit = "бубн";
                     break;
                 case 4:
-                    card_suit = "червы";
+                    card_suit = "черв";
                     break;
                 default:
                     throw new ArgumentException("Такой масти не существует");

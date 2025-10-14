@@ -11,7 +11,7 @@ namespace Tyuiu.PupovAA.Sprint2.Task5.V6.Test
             int x = 1;
             int y = 11;
             var card = ds.FindCardNameAndValue(x, y);
-            Assert.AreEqual(" валет пики",card);
+            Assert.AreEqual(" валет пик",card);
         }
     }
 }
