@@ -20,8 +20,19 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.Write("Введите масть карты от 1 до 4: ");
         int x = Convert.ToInt16(Console.ReadLine());
+        if (x < 1 || x > 4)
+        {
+            Console.WriteLine("Такой масти не существует");
+            Environment.Exit(0); 
+        }
         Console.Write("Введите достоиноство карты от 6 до 14: ");
         int y = Convert.ToInt16(Console.ReadLine());
+
+        if (y < 6 || y > 14)
+        {
+            Console.WriteLine("Такой карты не существует");
+            Environment.Exit(0);
+        }
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("****************************************************************************");
