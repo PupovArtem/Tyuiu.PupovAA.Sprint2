@@ -42,7 +42,7 @@ namespace Tyuiu.PupovAA.Sprint2.Task6.V12.Lib
                 _ => throw new ArgumentException("Некорректный номер месяца")
             };
 
-            return $"{daysInPrevMonth}. {prevMonth}. {prevYear}";
+            return $"0+{daysInPrevMonth}. 0+{prevMonth}. {prevYear}";
         }
     }
 }
