@@ -10,7 +10,7 @@ namespace Tyuiu.PupovAA.Sprint2.Task6.V12.Lib
         {
             if (n > 1)
             {
-                return $"{g}.{m}.{n - 1}";
+                return $"{n - 1}.{m}.{g}";
             }
 
             
@@ -42,7 +42,7 @@ namespace Tyuiu.PupovAA.Sprint2.Task6.V12.Lib
                 _ => throw new ArgumentException("Некорректный номер месяца")
             };
 
-            return $"{prevYear}. {prevMonth}. {daysInPrevMonth}";
+            return $"{daysInPrevMonth}. {prevMonth}. {prevYear}";
         }
     }
 }
